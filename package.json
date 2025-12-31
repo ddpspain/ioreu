@@ -9,7 +9,6 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "type": "commonjs",
   "dependencies": {
     "@react-email/components": "^1.0.3",
     "bcrypt": "^6.0.0",
