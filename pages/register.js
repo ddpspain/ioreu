@@ -1,5 +1,8 @@
 // File: pages/register.js
 
+// Forcing a cache refresh - v2
+// File: pages/register.js
+
 import { useState } from 'react';
 import { useRouter } from 'next/router';
 
