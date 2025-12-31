@@ -1,8 +1,8 @@
 // File: pages/api/login.js
 
-const bcrypt = require('bcrypt');
-const { Pool } = require('pg');
-const jwt = require('jsonwebtoken');
+import bcrypt from 'bcrypt';
+import { Pool } from 'pg';
+import jwt from 'jsonwebtoken';
 
 // --- Configuration ---
 const pool = new Pool({

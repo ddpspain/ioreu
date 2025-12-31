@@ -1,9 +1,9 @@
 // File: pages/api/register.js
 
-const { Resend } = require('resend');
-const bcrypt = require('bcrypt');
-const { Pool } = require('pg');
-const crypto = require('crypto');
+import { Resend } from 'resend';
+import bcrypt from 'bcrypt';
+import { Pool } from 'pg';
+import crypto from 'crypto';
 
 // --- Configuration ---
 const pool = new Pool({
