@@ -1,0 +1,24 @@
+{
+  "name": "ior-portal-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@react-email/components": "^1.0.3",
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "next": "^16.1.1",
+    "pg": "^8.16.3",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "resend": "^6.6.0"
+  }
+}
